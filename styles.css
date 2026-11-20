@@ -1,0 +1,87 @@
+/**
+Palette: https://scrimba.com/links/hometown-palette
+RED: #E63946
+LIGHT: #F1FAEE
+AQUA: #A8DADC
+LIGHT BLUE: #457B9D
+DARK BLUE: #1D3557
+
+*/
+
+body {
+    margin: 0;
+    text-align: center;
+}
+
+img {
+    width: 200px;
+}
+
+.black-ops-one-regular {
+  font-family: "Black Ops One", system-ui;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.hero {
+    background-image: url("images/san_jose.jpeg");
+    padding: 100px 0;
+    background-size: cover;
+    background-position: center;
+}
+
+.hero h1 {
+    background-color: #1D3557;
+    color: white;
+    padding: 10px 20px;
+    display: inline-block;
+    text-shadow: 0 3px black;
+}
+
+#hero_2 {
+    color: white;
+    display: inline-block;
+    text-shadow: 0 3px black;
+    background-color: #457B9D;
+    padding: 10px 20px;
+    }
+
+.activities {
+    text-align: center;
+    background-color: #F1FAEE;
+    padding: 20px 20px;
+}
+
+.activities-container{
+    display: inline-flex;
+    justify-content: space-evenly;
+    
+}
+
+.bold{
+    color: #E63946;
+}
+
+.guide-card {
+    display: inline-flex;
+    align-items: center;
+    background-color: #A8DADC;
+    padding: 20px 20px;
+    text-align: left;
+    margin: auto;
+    max-width: 400px;
+    border: 2px solid black;
+}
+
+.guide-card img {
+    margin-right: 20px;
+    border: 2px solid white;
+}
+
+#sharks-logo:hover{
+    content: url("https://media2.giphy.com/media/v1.Y2lkPTc5MGI3NjExeHNtbjZrMndnMXJycWt3OGQ5a2g2djBjaHQ5am4yeTF4cTI0bjB3ZCZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/Ii7ZHawM1myMa1gcGH/giphy.gif");
+}
+
+.card img{
+    border: 3px solid black;
+}
